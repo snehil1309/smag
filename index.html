@@ -1,0 +1,809 @@
+<!-- Developed by Snehil Sinha 
+Frontend Developer @ Topia Lifescience Pvt. Ltd.
+email: snehil.sinha@topialifesciences.com -->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="developer" content="Snehil Sinha">
+    <meta name="company" content="Topia Lifescience Pvt. Ltd.">
+    <title>SMAG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Smag Icon.svg">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../S-mag/assets/images/smagLogo1.svg" alt="logo"> 
+            </a>
+    
+            <!-- Navbar toggler for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Centered Menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><strong>About</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><strong>Services</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><strong>Contact</strong></a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Right-Aligned Login Button -->
+            <a href="./login.html" class="btn btn-brand ms-lg-3">Login</a>
+        </div>
+    </nav>
+    
+
+    <!-- HERO -->
+    <section id="home" class="min-vh-100 d-flex align-items-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Welcome to SMAG</h1>
+                    <h5 class="text-white mt-3 mb-4" data-aos="fade-right" style="letter-spacing: 6px;">Bringing Possibility To life</h5>
+                    <div data-aos="fade-up" data-aos-delay="50">
+                        <a href="#salient" class="btn btn-brand me-2">Salient Points</a>
+                        <a href="#benefits" class="btn btn-light-1 ms-2">benefits</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">About us</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+                    <img src="../S-mag/assets/images/aboutusimg.png" alt="" height="200">
+                </div>
+                <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
+                    <div class="d-flex pt-4 mb-3">
+                        <div class="iconbox me-4">
+                            <i class="ri-shake-hands-line"></i>
+                        </div>
+                        <div>
+                            <h3>We are redefining the future of drug discovery with our AI-driven molecular generation technology</h3>
+                            <p>Our mission is to empower researchers and pharmaceutical innovators with precise, efficient, and scalable tools to accelerate the identification of novel compounds and therapeutic solutions. By combining patented algorithms with advanced artificial intelligence, we unlock unprecedented opportunities for breakthroughs in drug design and development.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="iconbox me-4">
+                            <i class="ri-leaf-line"></i>
+                        </div>
+                        <div>
+                            <h3>At SMAG, we offer state-of-the-art models</h3>
+                            <p>This includes Data Generation, QSAR, Toxicity Prediction, Retrosynthesis, and Drug Repurposing, designed to revolutionize molecular research across diverse industries. From utilizing Graph Transformers for designing molecules with superior novelty and uniqueness to deploying cutting-edge predictive models for toxicity and retrosynthesis, our technology consistently outperforms the competition</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="iconbox me-4">
+                            <i class="ri-robot-2-line"></i>
+                        </div>
+                        <div>
+                            <h3>Topia Life Sciences developed a world-class AI platform that delivers unmatched accuracy and efficiency in molecule generation</h3>
+                            <p>Through proprietary datasets and advanced processing, SMAG ensures results that lead to impactful discoveries.
+                                <br>
+                                "Through the advancement of our platforms, we will build a fully integrated data economy. At Topia Life Sciences, we are passionate about improving health outcomes for people around the world.
+                            </p>
+                            <p><b>_Mr. Kamlesh Patel, Founder</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section-padding border-top deck shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Our Services</h1>
+                        <div class="line"></div>
+                        <p>The purpose of the Molecule Generation model is to revolutionize the process of molecular design and discovery using advanced deep learning techniques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 text-center">
+                <div id="dataGeneration" class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-settings-2-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Data Generation</h5>
+                        <p>Topia's model uses generative modeling to accelerate the creation of small molecules for drug discovery and materials science, identifying novel compounds and optimizing drug candidates for various industry applications.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-key-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Key considerations:</h5>
+                        <p>
+                            <li>Data cleaning and Filtering </li>
+                            <li>Data Standardization and Normalization</li>
+                            <li>Data Fragmentation</li>
+                            <li>Data Encoding</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-ai-generate-2"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Molecule Generation Model</h5>
+                        <p>
+                            <li>Utilizes Graph Transformer for molecule generation</li>
+                            <li>Achieves 100% validity in generated molecules, compared to 87-92% by State-of-the-Art (SOTA) models</li>
+                            <li>Achieves 98% uniqueness, 99% accuracy, and 97% novelty in generated molecules, outperforming SOTA models in all these metrics.</li>
+                            <li>Incorporates parallel processing for enhanced performance</li>
+                        </p>
+                    </div>
+                </div>
+                <div id="qsar" class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="service theme-shadow p-lg-5 p-4  service1">
+                        <div class="iconbox">
+                            <i class="ri-bubble-chart-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">QSAR</h5>
+                        <p>Topia’s Quantitative Structure-Activity Relationship (QSAR) model stands as a pillar of innovation.Offering a meticulous understanding of how molecular features correlate with biological activity. Our computational tools harness the power of advanced algorithms to decode the intricate relationship between chemical structure and functional behaviour.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-key-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Key considerations:</h5>
+                        <p>
+                            <li>Molecular Descriptors</li>
+                            <li>Model Building</li>
+                            <li>Validation: Calculation of Molecular Fingerprints, Fingerprint Filtering, Data Splitting, Machine Learning Regression, Model Evaluation</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-custom-size"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">QSAR Model</h5>
+                        <p>
+                            <li>Predictive Performance</li>
+                            <li>Flexibility and Customization</li>
+                            <li>Scalability and Efficiency</li>
+                            <li>Interpretability and Transparency</li>
+                        </p>
+                    </div>
+                </div>
+                <div id="toxicity" class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-skull-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Toxicity:</h5>
+                        <p> Plays a crucial role in ensuring the safety and efficacy of various chemicals and compounds across industries. Our Toxicity prediction model is a multifaceted endeavour, encompassing various domains such as mutagenicity, carcinogenicity, nephrotoxicity, cardiotoxicity, and hepatotoxicity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-key-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Key considerations:</h5>
+                        <p>
+                            
+                            <li>Data Collection and Preprocessing</li>
+                            <li>Model Architecture Selection</li>
+                            <li>Training and Validation</li>
+                            <li>Computational Efficiency and Scalability</li>
+                            <li>External Validation and Benchmarking</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Toxicity Model</h5>
+                        <p>
+                            <li>Our toxicity prediction models consistently outperform existing models.</li>
+                            <li>Consistently achieve higher true positive and negative rates while minimizing false positives and negatives.</li>
+                            <li>The ROC curve (AUC) for our in-house models is consistently higher than existing models.</li>
+                            <li>Our toxicity prediction models cover a range of toxicological endpoints, including mutagenicity, carcinogenicity, nephrotoxicity, cardiotoxicity, and hepatotoxicity.</li>
+                        </p>
+                    </div>
+                </div>
+                <div id="retrosynthesis" class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-route-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Retrosynthesis:</h5>
+                        <p>Predicts the synthetic pathway of small organic molecules, empowering chemists to devise efficient synthesis strategies.</p>
+                        <p>The retrosynthesis model developed by Topia Life Sciences incorporates unique methodologies rooted in AI and Chemical Informatics principles.
+                            The model employs a combination of two models wherein the first model is based on Multi-Layer Perceptron that predicts the single step reactions and the second model is based on A* search algorithm wherein this is used to find the shortest distance between two nodes of a graph.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-key-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Key considerations:</h5>
+                        <p>
+                            
+                            <li>Data Cleaning and Standardization</li>
+                            <li>Reaction Centre Identification</li>
+                            <li>Validation and Quality Control</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-road-map-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Retrosynthesis Model</h5>
+                        <p>
+                            <li>Both run in parallel to search for the commercial availability of the reagents required</li>
+                            <li>Predict higher Accuracy for Drug Structures</li>
+                            <li>Predict higher Accuracy for Modified Structures</li>
+                            <li>Route Similarity with State-of-the-Art Models</li>
+                            <li>Feasibility of Predicted Routes</li>
+                        </p>
+                    </div>
+                </div>
+                <div id="drugRepurpose" class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-capsule-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Drug Repurpose: </h5>
+                            <p>Expedite the drug discovery process by repurposing existing drugs for new therapeutic uses.
+                        <p>Expedite the drug discovery process by repurposing existing drugs for new therapeutic uses.
+                        Our AI model encompasses the development and validation of a Drug Repurposing pipeline, integrating Knowledge Graph embeddings with Machine Learning algorithms.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-key-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Key considerations:</h5>
+                        <p>
+                            <li>Knowledge Graph Embeddings (KGE)</li>
+                            <li> Machine Learning (ML) Algorithms</li>
+                            <li>Novel Approaches and Advancements</li>
+                            <li>Data Preprocessing Techniques</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="service theme-shadow p-lg-5 p-4 service1">
+                        <div class="iconbox">
+                            <i class="ri-capsule-line"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Repurpose Model</h5>
+                        <p>
+                            <li>Our AI model utilizes a comprehensive biomedical knowledge graph with diverse entities (drugs, diseases, proteins, genes, etc.) and relations, providing a rich source of information, in the form of a fact-based graph which can be used as a reference in drug repurposing.</li>
+                            <li>Our model can learn complex patterns and relationships, enabling accurate prediction of novel drug-disease associations.</li>
+                            <li>Overcome some of the issues of Knowledge graphs and Graphs such as sparse and dense subgraphs</li>
+                            <li> Proprietary Datasets</li>
+                            <li>With a proven track record of successful projects.</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Points -->
+    <section id="salient" class="section-padding-2 shadow-sm">
+        <div class="container text-center">
+            <div class="text-center">
+                <p class="text-white fs-1"><b>Salient Points</b> 
+                    <div class="white-underline"></div>
+            </p>
+        </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 fs-6" data-aos="fade-down" data-aos-delay="150">
+                    <i class="ri-focus-2-line text-white fs-8"></i>
+                    <p class="text-uppercase mb-0 text-white mt-3">SMAG can generate novel molecules for any target, instead of screening the chemical space</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 fs-6" data-aos="fade-down" data-aos-delay="250">
+                    <i class="ri-database-2-line text-white fs-8"></i>
+                    <p class="text-uppercase mb-0 text-white mt-3">Shortlisting the hit molecules with data-centric method</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 fs-6" data-aos="fade-down" data-aos-delay="350">
+                    <i class="ri-skull-line text-white fs-8"></i>
+                    <p class="text-uppercase mb-0 text-white mt-3">Predicting the toxicity based on the computational model built on commercial data.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-6 fs-6" data-aos="fade-down" data-aos-delay="450">
+                    <i class="ri-robot-3-line text-white fs-8"></i>
+                    <p class="text-uppercase mb-0 text-white mt-3">Score Predicting the ADME properties and Toxicity based on the AI models
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <!-- <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Our Portfolio</h1>
+                        <div class="line"></div>
+                        <p>We love to craft digital experiances for brands rather than crap and more lorem ipsums and do crazy skills</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/data-scientist-3.webp" alt="">
+                        </div>
+                        <a href="./assets/images/project-1.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/project-2.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/project-2.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/project-3.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/project-3.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/project-4.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/project-4.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/project-5.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/project-5.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/project-6.jpg" alt="">
+                        </div>
+                        <a href="./assets/images/project-6.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- REVIEW -->
+    <!-- <section id="reviews" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Molecules Generation Model Process Flow</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-1.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-2.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-3.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-4.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-5.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="review">
+                        <div class="review-head p-4 bg-white theme-shadow">
+                            <div class="text-warning">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>Amazing theme ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum animi rerum ipsam impedit dicta voluptatem.</p>
+                        </div>
+                        <div class="review-person mt-4 d-flex align-items-center">
+                            <img class="rounded-circle" src="./assets/images/avatar-6.jpg" alt="">
+                            <div class="ms-3">
+                                <h5>Dianne Russell</h5>
+                                <small>UX Architect</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Benefits -->
+    <section id="benefits" class="section-padding shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Benefits</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/Smag icon/Enhanced Efficiency.svg" alt="">
+                        </div>
+                        <div class="team-member-content">
+                            <h4 class="text-white pt-1">Enhanced Efficiency</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/Smag icon/Increased Accuracy.svg" alt="">
+                        </div>
+                        <div class="team-member-content">
+                            <h4 class="text-white pt-1">Increased Accuracy</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/Smag icon/Cost-Effective Solutions.svg" alt="">
+                        </div>
+                        <div class="team-member-content">
+                            <h4 class="text-white pt-1">Cost-Effective Solutions</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 text-center mt-5">
+                <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/Smag icon/Flexibility and Adaptability.svg" alt="">
+                        </div>
+                        <div class="team-member-content">
+                            <h4 class="text-white pt-1">Flexibility and Adaptability</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/Smag icon/Explore the Pathways of Revelation.svg" alt="">
+                        </div>
+                        <div class="team-member-content">
+                            <h4 class="text-white pt-1">Predictive Modelling</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-padding bg-light shadow-sm" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 text-white fw-semibold">Contact</h1>
+                        <div class="line bg-white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="250">
+                <div class="col-lg-8">
+                    <form action="#" class="row g-3 p-lg-5 p-4 bg-smag-blue-subtle theme-shadow">
+                        <!-- <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Enter first name" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Enter last name" required>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <input type="text" class="form-control" placeholder="Company" required>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <input type="text" class="form-control" placeholder="Role" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="tel" class="form-control" placeholder="phone" required>
+                          </div>
+                        <div class="form-group col-lg-6">
+                            <input type="email" class="form-control" placeholder="Email ID" required>
+                          </div>
+                        <div class="form-group col-lg-12">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>                          
+                        </div>
+                        <div class="form-group col-lg-12 d-grid">
+                            <button class="btn btn-brand">Send Message</button>
+                        </div> -->
+                        <iframe aria-label='Smag Contact form' frameborder="0" style="height:560px;width:99%;border:none; overflow: hidden;" src='https://forms.zohopublic.in/TopiaLifeSciences/form/SmagContactform/formperma/oWLQpoKbAkhVvX0fJJAVSfjtpizRhbgWiwy1Y-QTJOo'></iframe>
+                    <!-- <iframe class="contact-us-form" aria-label="SMAG Contact Us form" frameborder="1" src="https://forms.zohopublic.in/TopiaLifeSciences/form/FibriArtContactform/formperma/XGUOelevHYaGetDYghZOlpknaLUovr1VPGXOXTMIHew"></iframe> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <!-- <section id="blog" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Recent News & Articles</h1>
+                        <div class="line"></div>
+                        <p>We love to craft digital experiances for brands rather than crap and more lorem ipsums and do crazy skills</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/blog-post-1.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Web Design 2022</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos magni!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/blog-post-2.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Web Design 2022</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos magni!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="team-member image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/blog-post-3.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Web Design 2022</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos magni!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                       
+                        
+                            <p class="text-center mx-auto">
+                                <div class="mb-5"><a href="./index.html"><img src="./assets/images/smagLogo.svg" alt="smag logo"></a></div>
+                                <a href="https://www.linkedin.com/company/topia-lifesciences/" target="_blank">
+                                <i class="ri-linkedin-box-fill fs-4 text-primary">:</i>
+                              <a href="https://www.linkedin.com/company/smag-drug-discovery/?viewAsMember=true"  target="_blank">Follow SMAG on LinkedIn</a>
+                            </p>
+                            </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">SERVICES</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="#dataGeneration">Data Generation</a></li>
+                            <li><a href="#qsar">QSAR</a></li>
+                            <li><a href="#toxicity">Toxicity</a></li>
+                            <li><a href="#retrosynthesis">Retrosynthesis</a></li>
+                            <li><a href="#drugRepurpose">Drug Repurpose</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">ABOUT</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="./tnc.html">Terms & use</a></li>
+                            <li><a href="./policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">CONTACT</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <h3><li>Headquarters : <br>
+                                United Kingdom</li></h3>
+                            <li>128 City Road, London</li>
+                            <li>United Kingdom, EC1V 2NX</li>
+                            <a href="https://topialifesciences.com/"><li>www.topialifesciences.com</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright Topia Lifescience Pvt. Ltd. All Rights Reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed By : <a href="https://topialifesciences.com/" target="_blank"><img src="./assets/images/Topia Life Science.svg" alt="topiaLogo" class="topiaLogo"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
