@@ -481,19 +481,6 @@ footer .line {
   color: black !important;
   overflow: hidden !important;
 } */
-
-.fieldContWrapper {
-  width: 100%;
-  max-width: calc(
-    var(--form-width) + var(--form-cont-space-right) +
-      var(--form-cont-space-left)
-  );
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: none !important;
-  float: var(--form-align);
-}
-
 .bg-smag-blue-subtle {
   background-color: #21488bee;
   border-radius: 8px;
